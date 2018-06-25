@@ -1,0 +1,16 @@
+code/
+node_modules/
+coverage/
+packages/*/dist
+packages/*/esm
+build/
+
+*.swp
+*.DS_STORE
+npm-debug.log
+npm-shrinkwrap.json
+.npmrc
+.eslintcache
+.out/
+*.log
+.vscode/

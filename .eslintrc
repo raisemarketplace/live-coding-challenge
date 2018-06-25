@@ -1,0 +1,29 @@
+{
+  "extends": ["airbnb", "plugin:prettier/recommended"],
+  "parser": "babel-eslint",
+  "plugins": ["flowtype"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-module": {}
+    },
+    "import/core-modules": [
+      "classnames",
+      "enzyme",
+      "fetch-mock",
+      "react",
+      "react-dom",
+      "react-test-renderer"
+    ]
+  },
+  "rules": {
+    "prefer-arrow-callback": ["error", { "allowNamedFunctions": true }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "class-methods-use-this": 0,
+    "react/no-did-mount-set-state": 0
+  }
+}

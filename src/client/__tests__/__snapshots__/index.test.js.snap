@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App snapshots matches the default snapshot 1`] = `
+<div
+  className="app"
+>
+  <h1>
+    Live Coding Challenge
+  </h1>
+  <div
+    className="content"
+  >
+    <h2>
+      Listings
+    </h2>
+    <h2>
+      Cart
+    </h2>
+  </div>
+</div>
+`;
